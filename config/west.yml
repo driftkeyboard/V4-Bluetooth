@@ -1,20 +1,19 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: badjeff
-      url-base: https://github.com/badjeff
+    - name: driftkeyboard
+      url-base: https://github.com/driftkeyboard
       
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: driftkeyboard
       revision: v0.3.0
       import: app/west.yml
-    - name: zmk-pmw3610-driver
-      remote: badjeff
+    - name: zmk-pmw3610-driver-badjeff
+      remote: driftkeyboard
       revision: main
   self:
     path: config
+
 
 
 
