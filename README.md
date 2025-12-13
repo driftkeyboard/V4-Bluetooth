@@ -70,7 +70,7 @@ You can see more actual builds [-=HERE=-](https://www.instagram.com/majin.keyboa
 This project makes use of code and ideas from the following repositories:
 - [ZMK Firmware](https://github.com/zmkfirmware) (MIT License) - Zephyr™ Mechanical Keyboard (ZMK) Firmware  
 - [ufan/zmk](https://github.com/ufan/zmk) (MIT License) – Original ZMK base and PMW3610 work  
-- [kumamuk-git/zmk-pmw3610-driver](https://github.com/kumamuk-git/zmk-pmw3610-driver) – PMW3610 driver work, based on ufan’s code  
+- [badjeff/zmk-pmw3610-driver](https://github.com/badjeff/zmk-pmw3610-driver) – driver implementation for ZMK  
 - [caksoylar](https://github.com/caksoylar/keymap-drawer) (MIT License) - Keymap Drawer  
 
 All third-party code remains under their original licenses.  
