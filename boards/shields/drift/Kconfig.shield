@@ -1,0 +1,5 @@
+config SHIELD_DRIFT_LEFT
+    def_bool $(shields_list_contains,drift_left)
+
+config SHIELD_DRIFT_RIGHT_CENTRAL
+    def_bool $(shields_list_contains,drift_right_central)
